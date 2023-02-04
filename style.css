@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("jakob-owens-r3nt2pOIr0k-unsplash.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+    
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 25px auto;
+    color: #ffffff;
+    padding: 10px 15px;
+
+  }
+  input::placeholder {
+    color: #ffffff;
+    font-size: medium;
+    font-family: "Roboto Mono", monospace;
+ 
+  }
+  input {
+    height: 30px;
+    width: 25%;
+    background-color: #00000046;
+    border-radius: 12px;
+    text-align: center;
+    color: #ffffff;
+    
+  }
+  
+  .bnt button {
+    border: 0;
+    color: #ffffff;
+    background: #4400ff;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .bnt:hover {
+    opacity: 0.8;
+  }
+  .bnt {
+    border: 0;
+    color: #ffffff;
+    background: #4400ff;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
